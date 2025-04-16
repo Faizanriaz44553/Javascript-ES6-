@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar-and-modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="modalopen()">&times;</span>
+            <h2>Sign Up</h2>
+            <form>
+                <label for="name" class="sign-lebel">Name:</label><br>
+                <input type="text" id="name" name="name" class="user-input" required><br><br>
+                <label for="email" class="sign-lebel">Email:</label><br>
+                <input type="email" id="email" name="email" class="user-input" required><br><br>
+                <label for="password" class="sign-lebel">Password:</label><br>
+                <input type="password" id="password" name="password" class="user-input" required><br><br>
+                <button type="submit" class="sign-submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="min-div" >
+        
+        <div id="navbar" class="nav">
+            <div class="pic-center">
+                <div class="pic">
+                  
+                </div>
+            </div>
+            <div class="link">
+               <a href="">Home</a>
+            </div>
+            <div class="link">
+                <a href="">Protfolio</a>
+            </div>
+            <div class="link">
+                <a href="">About</a>
+    
+            </div>
+            <div class="link">
+                <a href="">Contect</a>
+    
+            </div>
+            <div class="link">
+                <a href="">Privacy</a>
+    
+            </div>
+        </div>
+
+
+
+
+        <div class="child-2">
+            <div class="signupmdal">
+                <i class="fa-solid fa-bars nav-icon" onclick="navbaropen()"></i>
+                <div class="main-heading-div">
+                <div class="main-heading-second-div">
+                    <h1 class="main-heading">Sidebar and Modal</h1>
+                    <p class="main-para">Implement a responsive sidebar that slides in and out, and a toggleable signup modal using HTML, CSS, and JavaScript.</p>
+
+
+                    <div class="sign-div">
+                        <div>
+                            <button class="signup"  onclick="modalopen()">singup</button>
+                        </div>
+                    </div>
+
+                     
+                </div>
+                </div>
+            </div>
+            <div class="container" id="container">
+                <section class="content">
+                <h1 class="sech1">Creating a Responsive Sidebar Navigation and Signup Modal</h1>
+                <h2 class="sech2">Objectives:</h2>
+                <p class="secp">Implement a sidebar navigation that slides in and out from the side.</p>
+                <p class="secp">Create a signup modal that can be toggled from the main content area.</p>
+
+                <h2 class="sech2">Instructions:</h2>
+                <h3 class="sech3">Sidebar Navigation:</h3>
+                  <p class="secp">The sidebar should slide in from the left side when a button is clicked.</p>
+                    <p class="secp">The sidebar should include navigation links.</p>
+                    <p class="secp">The main content area should adjust its position when the sidebar is open.</p>
+                
+
+                <h3 class="sech3">Signup Modal:</h3>
+                
+                    <p class="secp">Create a modal for user signup.</p>
+                    <p class="secp">The modal should have a button to open it from the main content area.</p>
+                    <p class="secp">Style the modal with a background color and appropriate dimensions.</p>
+                
+
+                <h2 class="sech2">Technologies to Use:</h2>
+                
+                    <p class="secp">HTML for structure.</p>
+                    <p class="secp">CSS for styling and animations.</p>
+                    <p class="secp">JavaScript for interactivity.</p>
+            </section>
+        </div>
+    </div>    
+</div>
+<button onclick="dark()">Dark mode</button>
+    <script src="https://kit.fontawesome.com/4cc5582d9c.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://freedesignfile.com/upload/2020/10/Islamic-background-design-mosque-window-with-light-shadow-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.child1{
+    width: 600px;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+.child1-sec{
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 500px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 0 30px 0 white;
+    margin-top: 80px;
+}
+.child2{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+}
+.img{
+    width: 100%;
+}
+.count{
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #2F2F2F ;
+}

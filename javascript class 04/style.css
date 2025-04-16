@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    color: black;
+}
+
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+#sec-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#user-input{
+    padding: 10px 10px 10px 200px;
+    border-radius: 5px;
+}
+#button{
+    padding: 10px 30px 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#list{
+    list-style-type:none;
+}

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    ---primary-color : #2A0E2A;
+}
+.body {
+    background-color: #2A0E2A;
+}
+.min-div{
+    display: flex;
+    width: 100%;
+}
+.nav{
+   width: 250px;
+   height: 100vh;
+   background-color: #2A0E2A ;
+   display: block;
+    margin-left: -250px;
+   transition: 0.5s;
+   border: 2px solid rgba(128, 128, 128, 0.685);;
+}
+.open{
+    margin-left: 0;
+}
+
+
+.child-2{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+
+}
+.signupmdal{
+    width: 100%;
+    height: 300px;
+    background-color: var(---primary-color);
+}
+.signup{
+    padding: 8px 30px 8px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #2A0E2A;
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.signup:hover {
+    box-shadow: 0px 0px 15px 0px white;
+    background-color: #2A0E2A;
+    color: white;
+}
+.sign-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 16, 16, 0.815);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.modaljs {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.modal-content h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12);
+    margin-bottom: 20px;
+}
+.sign-lebel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12);
+    
+}
+.user-input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(15, 15, 15, 0.849);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.sign-submit-button{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#2A0E2A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.sign-submit-button:hover {
+    box-shadow: 0px 0px 30px 0px #2A0E2A;
+    background-color: white;
+    color: #2A0E2A;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-icon{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.pic-center{
+    width: 100%;
+    height: 150px;
+    /* border-top: 2px solid rgba(128, 128, 128, 0.685); */
+    border-bottom: 2px solid rgba(128, 128, 128, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(./WhatsApp\ Image\ 2024-02-26\ at\ 19.20.23_e5afff13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px ;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.685);
+}
+.link a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.main-heading{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 2.5rem;
+     color: white;
+}
+.main-para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 15px;
+
+
+}
+.main-heading-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading-second-div{
+    width:60%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.sech1{
+    font-size: 2rem;
+    color: rgba(8, 8, 8, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.sech2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: rgba(8, 8, 8, 0.877);
+    margin-top: 20px;
+}
+.sech3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgba(8, 8, 8, 0.877);
+    margin-top: 10px;
+}
+.secp{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     color: #2A0E2A;
+     margin-top: 10px;
+}

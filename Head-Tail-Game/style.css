@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #760043; 
+    /* --background-color: #FCFCFC; /* Off-white */
+    /* --third-color: #3D3E42; */ 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-heading{
+    text-align: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+
+}
+.divmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 var(--secondary-color), /* Shadow color with blur effect */
+    0 0 2px 0 var(--secondary-color), /* Shadow color with blur effect */
+    0 0 20px 0 var(--secondary-color); /* Shadow color with blur effect */
+    border: transparent;
+
+}
+
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+}
+.input{
+    padding: 10px 50px 10px 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+.button{
+    padding: 10px 25px 10px 25px;
+    border: transparent;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+.button:hover {
+    box-shadow: 0 0 20px 0 var(--primary-color), /* Shadow color with blur effect */
+    0 0 20px 0 var(--primary-color), /* Shadow color with blur effect */
+    0 0 20px 0 var(--primary-color), /* Shadow color with blur effect */
+    0 0 20px 0 var(--primary-color); /* Shadow color with blur effect */
+    border: transparent;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.para{
+    text-align: center;
+    margin-top: 50px;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.para-2{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
